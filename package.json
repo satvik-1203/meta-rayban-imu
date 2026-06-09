@@ -1,0 +1,22 @@
+{
+  "name": "imu-relay-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/relay.ts",
+    "build": "tsc",
+    "start": "node dist/relay.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.0.0",
+    "@types/ws": "^8.5.13",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
